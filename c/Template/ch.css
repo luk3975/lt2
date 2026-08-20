@@ -9,7 +9,6 @@ header {
 footer {
 	background-color: #030642;
 	color: white;
-	margin: 25px;
 }
 
 p {
@@ -42,6 +41,7 @@ h1 {
    font-family: Audiowide;
    text-align: center;
    text-shadow: 2px 2px 3px mediumseagreen;
+   margin: 0px;
 }
 
 h2 {
@@ -55,6 +55,7 @@ div {
 	background-color: #b8b8b8;
 	margin: 25px;
 	padding: 25px;
+	max-width: 720px;
 }
 
 div3 {
@@ -73,6 +74,13 @@ div3 {
 	border: 4px solid #e8e8e8;
 	outline: 4px dotted black;
 	float: left;
+}
+
+.b {
+	background-color: #b8b8b8;
+	margin: 0px;
+	padding: 25px;
+	max-width: 1280px;
 }
 
 ul {
@@ -114,13 +122,3 @@ ul.topnav li a {
   text-decoration: none;
 }
 
-.v {
-	color: black;
-	background-color: #696969;
-	padding: 15px;
-	margin: 20px;
-	border: 4px solid #e8e8e8;
-	outline: 4px dotted black;
-	float: left;
-}
-	
