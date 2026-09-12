@@ -37,17 +37,33 @@ marquee {
 
 h1 {
    color: blue;
-   background-color: lightblue;
+   background-color: #00B59D;
    font-family: Audiowide;
    text-align: center;
    text-shadow: 2px 2px 3px red;
+   margin: 0px;
 }
 
 h2 {
    color: #ff3e43;
    font-family: 'Courier New', monospace;
    text-align: center;
-   text-shadow: 2px 2px 3px darkblue;
+   text-shadow: 2px 2px 3px red;
+}
+
+div {
+	background-color: #b8b8b8;
+	margin: 25px;
+	padding: 25px;
+	max-width: 720px;
+}
+
+div3 {
+	border: solid 4px darkgrey;
+	background-color: dodgerblue;
+	color: black;
+	margin: 25px;
+	padding: 25px;
 }
 
 .v {
@@ -59,4 +75,50 @@ h2 {
 	outline: 4px dotted darkred;
 	float: left;
 }
+
+.b {
+	background-color: #0073B5;
+	margin: 0px;
+	padding: 20px;
+	max-width: 1920px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0b07fc;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}	
 	
+ul li a:hover {
+  background-color: aqua;
+}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #0018B5;
+}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
