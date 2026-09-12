@@ -41,6 +41,7 @@ h1 {
    font-family: Audiowide;
    text-align: center;
    text-shadow: 2px 2px 3px mediumseagreen;
+   margin: 0px;
 }
 
 h2 {
@@ -49,7 +50,22 @@ h2 {
    text-align: center;
    text-shadow: 2px 2px 3px mediumseagreen;
 }
-	
+
+div {
+	background-color: #b8b8b8;
+	margin: 25px;
+	padding: 25px;
+	max-width: 720px;
+}
+
+div3 {
+	border: solid 4px darkgrey;
+	background-color: dodgerblue;
+	color: black;
+	margin: 25px;
+	padding: 25px;
+}
+
 .v {
 	color: black;
 	background-color: grey;
@@ -58,6 +74,52 @@ h2 {
 	border: 4px solid aqua;
 	outline: 4px dotted black;
 	float: left;
-	max-width: 758px;
 }
+
+.b {
+	background-image: url("banner.jpg");
+	background-size: 100% 100%;
+	margin: 0px;
+	padding: 20px;
+	max-width: 1920px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0044FF;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}	
 	
+ul li a:hover {
+  background-color: aqua;
+}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+}
+
+ul.topnav li a {
+  display: block;
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
