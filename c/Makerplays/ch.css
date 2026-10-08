@@ -19,15 +19,15 @@ p {
 }
 
 button {
-	color: white;
-	background-color: blue;
-	border: dashed 4px black;
+	color: yellow;
+	background-color: grey;
+	border: dashed 4px white;
 }
 
 a {
 	color: white;
 	font-family: Comic Sans MS;
-	text-shadow: 2px 2px 3px yellow;
+	text-shadow: 2px 2px 3px blue;
 }
 
 marquee {
@@ -42,6 +42,7 @@ h1 {
    font-family: Audiowide;
    text-align: center;
    text-shadow: 2px 2px 3px yellow;
+   margin: 0px;
 }
 
 h2 {
@@ -51,6 +52,20 @@ h2 {
    text-shadow: 3px 3px 4px yellow;
 }
 
+div {
+	background-color: #b8b8b8;
+	margin: 25px;
+	padding: 25px;
+	max-width: 720px;
+}
+
+div3 {
+	border: solid 4px darkgrey;
+	background-color: dodgerblue;
+	color: black;
+	margin: 25px;
+	padding: 25px;
+}
 
 .v {
 	color: white;
@@ -61,5 +76,50 @@ h2 {
 	outline: 4px dotted yellow;
 	float: left;
 }
+
+.b {
+	background-color: #3D5168;
+	margin: 0px;
+	padding: 20px;
+	max-width: 1920px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #1D1D1D;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}	
 	
-	
+ul li a:hover {
+  background-color: #ffcc00;
+}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #b8b8b8;
+}
+
+ul.topnav li a {
+  display: block;
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
